@@ -1,3 +1,5 @@
+# A simple way to pick the winners of march madness
+
 # Create a dictionary for each region
 north_bracket = {}
 south_bracket = {}
@@ -6,8 +8,11 @@ west_bracket = {}
 
 #creates teams with their ranking
 def create_teams(bracket, region): 
+
 	for index, items in enumerate(range(1,17),1):
-		bracket[index] = '{0}_University{1}'.format(region, index) #prints University name with region and ranking
+	
+		#prints University name with region and ranking = index which is the key of the dict
+		bracket[index] = '{0}_University{1}'.format(region, index) 
 	return bracket
 
 # Turned the bracket into a linear formation
