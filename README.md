@@ -1,2 +1,6 @@
 # march_madness
-Examples of choosing march madness winners for Hear Me Code competition
+Excited about Hear Me Code March Maddness 
+Let's get ready to rumble.
+
+#BearDown
+
